@@ -29,14 +29,14 @@ public class SwaggerConfig {
                         .version("4.0.1")
                         .contact(
                                 new Contact()
-                                        .url("https://github.com/BasavarajSamrat")
-                                        .email("basavarajsamrat@gmail.com")
-                                        .name("Basavaraj Samrat"))
+                                        .url("contact url")
+                                        .email("email")
+                                        .name("name"))
                 )
                 .externalDocs(
                         new ExternalDocumentation()
                                 .description("OTP service through twilio api")
-                                .url("https://github.com/BasavarajSamrat")
+                                .url("url")
 
                 )
                 .servers(List.of(
